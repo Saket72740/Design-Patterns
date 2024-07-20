@@ -6,8 +6,7 @@ import StrategyPattern.WithStrategy.SportsVehicle;
 public class MainClass {
 	
 	public static void main(String[] args) {
-		Vehicle vehicle = new NormalVehicle();
-		vehicle.drive();
+		System.out.println("Hello World");
 	}
 	
 }
