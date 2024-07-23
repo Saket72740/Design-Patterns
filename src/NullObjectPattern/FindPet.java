@@ -2,18 +2,15 @@ package NullObjectPattern;
 
 public class FindPet {
 
-	public PetAnimal getPetDetail(String animal) {
+	public PetAnimal getPetDetail(String typeOfAnimal) {
 		
-		switch (animal) {
-			case "CAT":
-				return new CatPet();
-			case "COW":
-				return new CowPet();
-			case "DOG":
-				return new PetDog();
-			default:
-				return new NullPet();
-		}
+		if("COW".equals(typeOfAnimal))
+			return new CowPet();
+		else if("CAT".equals(typeOfAnimal))
+			return new CatPet();
+		else if("DOG".equals(typeOfAnimal))
+			return new PetDog();
+		return new NullPet();
 	}
 	
 }

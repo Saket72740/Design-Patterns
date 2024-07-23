@@ -7,4 +7,9 @@ public class NullPet implements PetAnimal{
 		System.out.println("Sorry! We don't have this pet with us.");
 	}
 
+	@Override
+	public int legCount() {
+		return 0;
+	}
+
 }
