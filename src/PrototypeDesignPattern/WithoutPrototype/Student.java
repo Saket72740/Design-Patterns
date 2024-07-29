@@ -1,10 +1,10 @@
-package PrototypeDesignPattern;
+package PrototypeDesignPattern.WithoutPrototype;
 
 public class Student {
 
-	int age;
+	public int age;
 	private int rollNumber;
-	String name;
+	public String name;
 	
 	public Student() {
 		
