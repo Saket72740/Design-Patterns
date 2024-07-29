@@ -2,8 +2,8 @@ package SingletonDesignPattern;
 
 public class DoubleLockDBConnection {
 
-	private static DoubleLockDBConnection conObj;
-//	private static volatile DoubleLockDBConnection conObj;
+//	private static DoubleLockDBConnection conObj;
+	private static volatile DoubleLockDBConnection conObj;
 	int memberVariable;
 	
 	private DoubleLockDBConnection(int memberVariable) {
