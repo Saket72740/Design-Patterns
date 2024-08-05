@@ -29,5 +29,6 @@ public class Main {
 		remoteObj.setCommand(new TurnACOnCommand(airConditioner));
 		remoteObj.pressButton();
 		
+		remoteObj.undo();
 	}
 }
